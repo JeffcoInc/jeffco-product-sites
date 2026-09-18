@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JeffCo Product Sites — Crown Trinity</title>
+  <style>
+    :root { --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --grow:#166534; --repair:#9a3412; --brain:#1e3a8a; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--ink); background:#f8fafc; }
+    header { padding:48px 24px 24px; max-width:960px; margin:0 auto; }
+    h1 { font-size:2rem; margin:0 0 8px; }
+    p { color:var(--muted); line-height:1.5; }
+    .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); max-width:960px; margin:0 auto; padding:0 24px 64px; }
+    a.card { display:block; text-decoration:none; color:inherit; background:#fff; border:1px solid var(--line); border-radius:16px; padding:20px; transition:transform .15s ease, box-shadow .15s ease; }
+    a.card:hover { transform:translateY(-2px); box-shadow:0 12px 30px rgba(15,23,42,.08); }
+    .tag { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:4px 8px; border-radius:999px; color:#fff; margin-bottom:12px; }
+    .grow { background:var(--grow); } .repair { background:var(--repair); } .brain { background:var(--brain); }
+    footer { max-width:960px; margin:0 auto; padding:0 24px 48px; color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>JeffCo crown product sites</h1>
+    <p>Design-shipped Pages for GrowCam, RepairCam, and Brain. Module repos stay private; this public mirror hosts GitHub Pages on Free.</p>
+  </header>
+  <div class="grid">
+    <a class="card" href="./growcam/"><span class="tag grow">GrowCam</span><h2>Greenhouse specialist</h2><p>Propose ≠ water. SensorConfirm honesty. Classical ExG production lock.</p></a>
+    <a class="card" href="./repaircam/"><span class="tag repair">RepairCam</span><h2>Guided tear-down / build-up</h2><p>Detect ≠ claim. Invent placement = 0 under occlusion. Origin pose 2D honesty.</p></a>
+    <a class="card" href="./brain/"><span class="tag brain">Brain</span><h2>Ops metacognition</h2><p>No silent heal. Real LangGraph. SessionExplain completeness floor.</p></a>
+  </div>
+  <footer>Soft/JOI omitted. JeffcoInc · Design crown packs · Builder deploy</footer>
+</body>
+</html>

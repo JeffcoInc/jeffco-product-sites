@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 260" role="img" aria-label="RepairCam Session close-up gate">
+  <rect width="720" height="260" rx="16" fill="#0A0C12"/>
+  <text x="24" y="36" fill="#E8EEF4" font-family="Space Grotesk,sans-serif" font-size="18" font-weight="700">Session</text>
+  <text x="120" y="36" fill="#8B97A8" font-size="12" font-family="Inter,sans-serif">Pending ≠ confirmed · close-up gate</text>
+  <rect x="24" y="56" width="672" height="48" rx="10" fill="rgba(248,113,113,0.1)" stroke="rgba(248,113,113,0.45)"/>
+  <text x="40" y="85" fill="#F87171" font-family="Inter,sans-serif" font-size="13" font-weight="700">Can’t close up — 2 critical parts still out.</text>
+  <!-- graph -->
+  <rect x="24" y="124" width="200" height="110" rx="12" fill="#161C26" stroke="#2C3648"/>
+  <text x="40" y="150" fill="#8B97A8" font-size="11" font-family="ui-monospace,monospace">removed</text>
+  <text x="40" y="178" fill="#E8EEF4" font-size="28" font-weight="700" font-family="Space Grotesk,sans-serif">7</text>
+  <text x="40" y="208" fill="#E8A317" font-size="11" font-family="Inter,sans-serif">confirmed edges</text>
+  <rect x="240" y="124" width="200" height="110" rx="12" fill="#161C26" stroke="#2C3648"/>
+  <text x="256" y="150" fill="#8B97A8" font-size="11" font-family="ui-monospace,monospace">in trays</text>
+  <text x="256" y="178" fill="#E8EEF4" font-size="28" font-weight="700" font-family="Space Grotesk,sans-serif">5</text>
+  <text x="256" y="208" fill="#34D399" font-size="11">claim / OCR / tap</text>
+  <rect x="456" y="124" width="240" height="110" rx="12" fill="#161C26" stroke="#F87171"/>
+  <text x="472" y="150" fill="#F87171" font-size="11" font-family="ui-monospace,monospace">outstanding</text>
+  <text x="472" y="178" fill="#F87171" font-size="22" font-weight="700" font-family="Space Grotesk,sans-serif">Fastener-X</text>
+  <text x="472" y="208" fill="#8B97A8" font-size="11">location · unknown</text>
+</svg>

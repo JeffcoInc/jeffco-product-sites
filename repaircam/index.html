@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>RepairCam — JeffCo</title>
+<meta name="description" content="Guided tear-down and reassembly console with tray memory and AR put-back — claim honesty, not sticky notes." />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<!-- COPY LOCKED: Clarity-ship-jeffco-repaircam-gh-pages.md -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#top"><span class="brand-mark">RC</span> JeffCo <em>RepairCam</em></a>
+    <nav class="topnav" aria-label="Page">
+      <a class="hide-sm" href="#what">What</a>
+      <a class="hide-sm" href="#capabilities">Caps</a>
+      <a class="hide-sm" href="#how">How</a>
+      <a class="hide-sm" href="#honesty">Honesty</a>
+      <a class="hide-sm" href="#screens">Screens</a>
+      <a class="pill-cta" href="#start">Start a tear-down session</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">JeffCo · Pit-crew specialist</div>
+        <h1>RepairCam</h1>
+        <p class="lead"><strong style="color:var(--ink)">Guided tear-down &amp; reassembly console with tray memory and AR put-back — claim honesty, not sticky notes.</strong></p>
+        <p class="lead" style="margin-top:-4px">For techs who need part↔tray↔origin spatial memory and a firm close-up gate when criticals are still out.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#start">Start a tear-down session</a>
+          <a class="btn btn-ghost" href="#honesty">See claim vs detect</a>
+        </div>
+        <div class="mode-row" aria-label="Modes">
+          <span class="mode tear">Tear-down</span>
+          <span class="mode build">Build-up</span>
+          <span class="mode pause">Pause</span>
+        </div>
+        <div class="hero-meta">
+          <span><strong>Detect ≠ claim</strong></span>
+          <span><strong>Occlusion clears AR</strong></span>
+          <span><strong>Guidance only</strong></span>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <img src="assets/screen-live.svg" alt="RepairCam Live — occlusion hero and Detect→Propose→Confirm" width="720" height="440" />
+      </figure>
+    </div>
+  </section>
+
+  <section id="what">
+    <div class="wrap">
+      <div class="section-head"><h2>What it does</h2></div>
+      <p style="font-size:1.08rem;color:var(--muted);max-width:68ch;margin-bottom:16px">
+        RepairCam is a pit-crew console: detect parts, <strong style="color:var(--ink)">claim</strong> them into numbered trays, remember origins, then AR-highlight tray and put-back on build-up.
+      </p>
+      <p style="font-size:1.08rem;color:var(--muted);max-width:68ch;margin-bottom:16px">
+        Modes are first-class — <strong style="color:var(--ink)">Tear-down · Build-up · Pause</strong>. Live shows the next action strip; Trays is a confidence-aware board; Session holds the step rail and graph.
+      </p>
+      <p style="font-size:1.08rem;color:var(--muted);max-width:68ch;margin-bottom:16px">
+        Detection alone never marks “in tray.” Claims need confidence or an operator tap. OCR misses ask show-me / tap slot — never nearest-tray invention.
+      </p>
+      <p style="font-size:1.08rem;color:var(--muted);max-width:68ch">
+        Guidance only: highlights and confirms. No torque, tighten, or tool actuation fantasy.
+      </p>
+    </div>
+  </section>
+
+  <section id="capabilities" class="alt">
+    <div class="wrap">
+      <div class="section-head"><h2>Capabilities</h2></div>
+      <h3 style="font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:14px">Day-one surface</h3>
+      <div class="cap-grid" style="margin-bottom:28px">
+        <div class="cap"><div class="cap-top"><h3>Live + AR guide</h3><span class="badge core">Day one</span></div><p>Tray halo, origin ghost, mode switch, next-action strip.</p></div>
+        <div class="cap"><div class="cap-top"><h3>Parts CRM</h3><span class="badge core">Day one</span></div><p>Detected · claim pending · in tray (confirmed) · returned · missing · unknown.</p></div>
+        <div class="cap"><div class="cap-top"><h3>Tray board</h3><span class="badge core">Day one</span></div><p>Numbered slots with confidence / OCR-miss / empty states.</p></div>
+        <div class="cap"><div class="cap-top"><h3>Session rail</h3><span class="badge core">Day one</span></div><p>Tear-down / build-up graph; pending vs confirmed edges.</p></div>
+        <div class="cap"><div class="cap-top"><h3>Wizard</h3><span class="badge core">Day one</span></div><p>Feed → map trays → first claim gate → optional origin → AR dry-run.</p></div>
+      </div>
+      <h3 style="font-size:0.8rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--steel);margin-bottom:14px">Advanced / gated</h3>
+      <div class="cap-grid">
+        <div class="cap lazy"><div class="cap-top"><h3>Track / mesh debug</h3><span class="badge more">Advanced</span></div><p>Raw track merge/split, 3D mesh debug, dense multi-product pack editors.</p></div>
+        <div class="cap lazy"><div class="cap-top"><h3>Admin close-up override</h3><span class="badge more">Audited</span></div><p>When criticals outstanding — audited only.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="section-head"><h2>How to use it</h2></div>
+      <h3 style="font-family:var(--font-display);font-size:1.15rem;margin-bottom:12px">First-run (wizard)</h3>
+      <div class="steps" style="margin-bottom:36px">
+        <div class="step"><div class="step-num">1</div><div><h3>Add a feed</h3><p>Bench camera or practice media.</p></div></div>
+        <div class="step"><div class="step-num">2</div><div><h3>Map trays</h3><p>Numbered pit-crew layout.</p></div></div>
+        <div class="step"><div class="step-num">3</div><div><h3>First part→tray claim</h3><p>Continue locked until a real claim (confidence chip on success).</p></div></div>
+        <div class="step"><div class="step-num">4</div><div><h3>Optional origin remember</h3><p>Where it came from on the product.</p></div></div>
+        <div class="step"><div class="step-num">5</div><div><h3>AR highlight dry-run</h3><p>Light only; occupancy does not flip. Or Skip.</p></div></div>
+      </div>
+      <h3 style="font-family:var(--font-display);font-size:1.15rem;margin-bottom:12px">Daily loop</h3>
+      <div class="steps">
+        <div class="step"><div class="step-num">1</div><div><h3>Pick mode</h3><p>Tear-down, Build-up, or Pause/lookup.</p></div></div>
+        <div class="step"><div class="step-num">2</div><div><h3>On Live</h3><p>Detect → Propose tray → <strong>Confirm placed</strong> (tear-down) or Pick tray → Origin lit → <strong>Confirm returned</strong> (build-up).</p></div></div>
+        <div class="step"><div class="step-num">3</div><div><h3>Fix OCR / occlusion</h3><p><strong>Show me</strong> or <strong>Tap slot</strong> — don’t guess.</p></div></div>
+        <div class="step"><div class="step-num">4</div><div><h3>Check Trays board</h3><p>Badges; clear unknowns before close-up.</p></div></div>
+        <div class="step"><div class="step-num">5</div><div><h3>Close session</h3><p>Only when criticals are returned or explicitly overridden (audited).</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="honesty">
+    <div class="wrap">
+      <div class="honesty">
+        <h2>Honesty / trust</h2>
+        <p class="sub">Clarity GH Pages honesty — never invent placement.</p>
+        <ul class="honesty-list">
+          <li><strong>No invented placement.</strong> Detect ≠ claim. Sub-threshold → Unconfirmed / Needs show-me, not occupied.</li>
+          <li><strong>OCR miss ≠ guessed slot.</strong> Show me or tap — we won’t auto-assign nearest tray.</li>
+          <li><strong>Occlusion honesty.</strong> Lost sight clears confident AR; guide pauses until sight returns.</li>
+          <li><strong>AR highlight ≠ placed/returned.</strong> Dry-run and guides are light only; confirm is separate.</li>
+          <li><strong>Unknown stays unknown.</strong> Missing critical with unknown location never invents a last tray.</li>
+          <li><strong>Guidance only</strong> — RepairCam doesn’t run tools.</li>
+          <li>Close-up blocked while criticals outstanding.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="screens" class="alt">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Screenshots</h2>
+        <p>Brochure frames from crown mocks — Live occlusion, tray board, session gate.</p>
+      </div>
+      <div class="screen-grid">
+        <figure class="screen-card">
+          <div class="frame"><img src="assets/screen-live.svg" alt="Live" width="720" height="440" /></div>
+          <figcaption><strong>Live — Detect→Propose→Confirm</strong> Occlusion hero; tools latch disarmed.</figcaption>
+        </figure>
+        <figure class="screen-card">
+          <div class="frame"><img src="assets/screen-trays.svg" alt="Trays" width="720" height="300" /></div>
+          <figcaption><strong>Trays — pit-crew board</strong> Conf badges · ??? OCR miss · unconfirmed.</figcaption>
+        </figure>
+        <figure class="screen-card">
+          <div class="frame"><img src="assets/screen-session.svg" alt="Session" width="720" height="260" /></div>
+          <figcaption><strong>Session — close-up gate</strong> Outstanding criticals; unknown stays unknown.</figcaption>
+        </figure>
+        <figure class="screen-card">
+          <div class="frame" style="padding:24px;color:#8B97A8;font-family:ui-monospace,monospace;font-size:13px;line-height:1.65;min-height:180px;background:#080A10">
+            <div style="color:#E8A317;margin-bottom:8px">Activity kinds</div>
+            Detected · Highlight only · Claim confirmed<br/>
+            OCR miss · Returned (confirmed)
+          </div>
+          <figcaption><strong>Activity — split kinds</strong> Never collapse detect into in-tray.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="start" class="cta-band">
+    <h2>Get started</h2>
+    <p>Wire module path / docs when Builder queues the Pages deploy.</p>
+    <div class="cta-row" style="justify-content:center">
+      <a class="btn btn-primary" href="#how">Start a tear-down session</a>
+      <a class="btn btn-ghost" href="#honesty">See claim vs detect</a>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="row"><a href="#top">RepairCam</a><span>·</span><span>JeffCo crown</span><span>·</span><span>Soft omitted</span></div>
+  <div>Copy locked · Clarity-ship-jeffco-repaircam-gh-pages.md · Design art direction</div>
+</footer>
+</body>
+</html>
