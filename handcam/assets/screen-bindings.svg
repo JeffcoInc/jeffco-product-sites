@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="HandCam Bindings">
+  <rect width="720" height="300" rx="16" fill="#070A0E"/>
+  <text x="28" y="36" fill="#00E5FF" font-size="11" font-weight="700" letter-spacing="2" font-family="Inter,sans-serif">BINDINGS - SIGNATURE</text>
+  <text x="28" y="64" fill="#E8F6FA" font-size="18" font-weight="800" font-family="Fraunces,Georgia,serif">Gesture to sink map</text>
+  <rect x="28" y="90" width="210" height="70" rx="10" fill="#101820" stroke="#00E5FF"/>
+  <text x="44" y="118" fill="#00E5FF" font-size="13" font-weight="700" font-family="Inter,sans-serif">Pinch</text>
+  <text x="44" y="140" fill="#8BA0AE" font-size="11" font-family="Inter,sans-serif">to keyboard - Space</text>
+  <rect x="254" y="90" width="210" height="70" rx="10" fill="#101820" stroke="#243040"/>
+  <text x="270" y="118" fill="#E8F6FA" font-size="13" font-weight="700" font-family="Inter,sans-serif">Point</text>
+  <text x="270" y="140" fill="#8BA0AE" font-size="11" font-family="Inter,sans-serif">to OSC - /hand/point</text>
+  <rect x="480" y="90" width="212" height="70" rx="10" fill="#101820" stroke="#243040"/>
+  <text x="496" y="118" fill="#E8F6FA" font-size="13" font-weight="700" font-family="Inter,sans-serif">Grab</text>
+  <text x="496" y="140" fill="#8BA0AE" font-size="11" font-family="Inter,sans-serif">to gamepad - A</text>
+  <rect x="28" y="180" width="664" height="90" rx="10" fill="#101820" stroke="#243040"/>
+  <text x="44" y="212" fill="#E8F6FA" font-size="13" font-weight="600" font-family="Inter,sans-serif">Latency honesty - dry-run != live control</text>
+  <text x="44" y="236" fill="#FBBF24" font-size="11" font-family="ui-monospace,monospace">No medical/rehab claims - RepairCam assist optional</text>
+  <text x="44" y="256" fill="#4A5E6A" font-size="11" font-family="ui-monospace,monospace">Refuse detection-strip-only UI</text>
+</svg>

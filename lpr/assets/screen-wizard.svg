@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" role="img" aria-label="LPR Wizard">
+  <rect width="720" height="280" rx="16" fill="#0A0E16"/>
+  <text x="28" y="36" fill="#00D4FF" font-size="11" font-weight="700" letter-spacing="2" font-family="Inter,sans-serif">WIZARD - STEP C</text>
+  <text x="28" y="64" fill="#ECF2FA" font-size="20" font-weight="800" font-family="Fraunces,Georgia,serif">Test read</text>
+  <text x="28" y="90" fill="#94A3B8" font-size="13" font-family="Inter,sans-serif">Continue locked until a real plate (or Practice success).</text>
+  <rect x="28" y="114" width="280" height="120" rx="12" fill="#162034" stroke="#00D4FF"/>
+  <text x="48" y="150" fill="#00D4FF" font-size="28" font-weight="800" font-family="ui-monospace,monospace">7ABC123</text>
+  <text x="48" y="178" fill="#34D399" font-size="12" font-family="Inter,sans-serif">Proven read - Continue unlocked</text>
+  <text x="48" y="204" fill="#475569" font-size="11" font-family="ui-monospace,monospace">No invented plates</text>
+  <rect x="340" y="114" width="352" height="120" rx="12" fill="#162034" stroke="#2D3A52"/>
+  <text x="360" y="150" fill="#ECF2FA" font-size="14" font-weight="600" font-family="Inter,sans-serif">Step E - One action</text>
+  <text x="360" y="176" fill="#94A3B8" font-size="12" font-family="Inter,sans-serif">Notify me when hardware unbound</text>
+  <text x="360" y="200" fill="#FBBF24" font-size="11" font-family="ui-monospace,monospace">Dry-run required - same bar</text>
+</svg>

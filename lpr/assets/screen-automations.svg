@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" role="img" aria-label="LPR Automations">
+  <rect width="720" height="320" rx="16" fill="#0A0E16"/>
+  <rect x="0" y="0" width="720" height="40" fill="#101826"/>
+  <circle cx="22" cy="20" r="7" fill="#00D4FF"/>
+  <text x="36" y="24" fill="#ECF2FA" font-family="Inter,sans-serif" font-size="12" font-weight="700">JeffCo LPR - Automations</text>
+  <rect x="24" y="60" width="672" height="240" rx="14" fill="#162034" stroke="#2D3A52"/>
+  <text x="44" y="92" fill="#ECF2FA" font-size="16" font-weight="700" font-family="Inter,sans-serif">When Trusted plate - Notify me</text>
+  <text x="44" y="116" fill="#94A3B8" font-size="12" font-family="Inter,sans-serif">Confidence floor 0.85 - cooldown 5m - schedule any</text>
+  <rect x="44" y="136" width="120" height="24" rx="12" fill="rgba(0,212,255,0.12)" stroke="#00D4FF"/>
+  <text x="56" y="152" fill="#00D4FF" font-size="11" font-family="Inter,sans-serif">Dry-run on card</text>
+  <rect x="176" y="136" width="100" height="24" rx="12" fill="rgba(52,211,153,0.12)" stroke="#34D399"/>
+  <text x="188" y="152" fill="#34D399" font-size="11" font-family="Inter,sans-serif">Test rule OK</text>
+  <rect x="44" y="180" width="632" height="48" rx="10" fill="#0C121C" stroke="#2D3A52"/>
+  <text x="60" y="208" fill="#94A3B8" font-size="12" font-family="Inter,sans-serif">Last test: rehearsal only - no hardware fired - gate Not connected</text>
+  <rect x="44" y="248" width="140" height="32" rx="8" fill="#1C2840" stroke="#2D3A52"/>
+  <text x="68" y="268" fill="#94A3B8" font-size="12" font-family="Inter,sans-serif">Arm for real</text>
+  <text x="200" y="268" fill="#475569" font-size="11" font-family="ui-monospace,monospace">gated until dry-run passes</text>
+</svg>

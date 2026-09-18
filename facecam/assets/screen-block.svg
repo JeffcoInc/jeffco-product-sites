@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-label="FaceCam Identity BLOCK">
+  <rect width="720" height="300" rx="16" fill="#080A10"/>
+  <text x="28" y="36" fill="#A78BFA" font-size="11" font-weight="700" letter-spacing="2" font-family="Inter,sans-serif">FEATURES</text>
+  <rect x="28" y="56" width="320" height="220" rx="12" fill="#141825" stroke="#A78BFA"/>
+  <text x="48" y="90" fill="#E8ECF6" font-size="15" font-weight="700" font-family="Inter,sans-serif">Tracking core</text>
+  <text x="48" y="118" fill="#34D399" font-size="12" font-family="Inter,sans-serif">* Mesh - head-pose - quality HUD</text>
+  <text x="48" y="142" fill="#34D399" font-size="12" font-family="Inter,sans-serif">* Anonymous session logs</text>
+  <text x="48" y="166" fill="#34D399" font-size="12" font-family="Inter,sans-serif">* Outputs dry-run sinks</text>
+  <text x="48" y="210" fill="#8B94A8" font-size="11" font-family="Inter,sans-serif">Day-one studio instrument</text>
+  <rect x="372" y="56" width="320" height="220" rx="12" fill="#141825" stroke="#F87171" stroke-width="2"/>
+  <rect x="392" y="76" width="100" height="22" rx="6" fill="rgba(248,113,113,0.2)" stroke="#F87171"/>
+  <text x="410" y="91" fill="#F87171" font-size="11" font-weight="800" font-family="Inter,sans-serif">BLOCK</text>
+  <text x="392" y="128" fill="#E8ECF6" font-size="15" font-weight="700" font-family="Inter,sans-serif">Identity</text>
+  <text x="392" y="156" fill="#8B94A8" font-size="12" font-family="Inter,sans-serif">Enroll - Match - Recognize</text>
+  <text x="392" y="180" fill="#8B94A8" font-size="12" font-family="Inter,sans-serif">Paid face APIs</text>
+  <rect x="392" y="200" width="200" height="36" rx="8" fill="#1A2030" stroke="#2A3348" opacity="0.6"/>
+  <text x="430" y="222" fill="#6B7388" font-size="12" font-family="Inter,sans-serif">Enable - locked</text>
+  <text x="392" y="258" fill="#F87171" font-size="11" font-family="ui-monospace,monospace">Never wizard-enabled</text>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-label="HandCam Live">
+  <defs><linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#101820"/><stop offset="100%" stop-color="#070A0E"/></linearGradient></defs>
+  <rect width="720" height="440" rx="16" fill="url(#hbg)"/>
+  <rect x="0" y="0" width="720" height="40" fill="#0C1218"/>
+  <circle cx="22" cy="20" r="7" fill="#00E5FF"/>
+  <text x="36" y="24" fill="#E8F6FA" font-family="Inter,sans-serif" font-size="12" font-weight="700">JeffCo HandCam</text>
+  <text x="180" y="24" fill="#00E5FF" font-family="Inter,sans-serif" font-size="11" font-weight="600">Live</text>
+  <text x="220" y="24" fill="#4A5E6A" font-family="Inter,sans-serif" font-size="11">Gestures</text>
+  <text x="290" y="24" fill="#4A5E6A" font-family="Inter,sans-serif" font-size="11">Bindings</text>
+  <text x="360" y="24" fill="#4A5E6A" font-family="Inter,sans-serif" font-size="11">Sessions</text>
+  <rect x="16" y="52" width="440" height="370" rx="12" fill="#0A1016" stroke="#243040"/>
+  <circle cx="36" cy="72" r="4" fill="#F87171"/>
+  <text x="48" y="76" fill="#8BA0AE" font-size="10" font-family="Inter,sans-serif">LIVE depth-1</text>
+  <circle cx="200" cy="280" r="18" fill="none" stroke="#00E5FF" stroke-width="2"/>
+  <line x1="200" y1="262" x2="200" y2="180" stroke="#00E5FF" stroke-width="2"/>
+  <line x1="200" y1="220" x2="160" y2="160" stroke="#00E5FF" stroke-width="2"/>
+  <line x1="200" y1="220" x2="240" y2="150" stroke="#00E5FF" stroke-width="2"/>
+  <line x1="200" y1="230" x2="250" y2="200" stroke="#5EFFF7" stroke-width="2"/>
+  <circle cx="160" cy="160" r="5" fill="#5EFFF7"/><circle cx="240" cy="150" r="5" fill="#5EFFF7"/>
+  <circle cx="250" cy="200" r="5" fill="#00E5FF"/><circle cx="200" cy="180" r="5" fill="#00E5FF"/>
+  <rect x="28" y="360" width="180" height="48" rx="8" fill="rgba(16,24,32,0.95)" stroke="#243040"/>
+  <text x="40" y="380" fill="#8BA0AE" font-size="9" font-family="ui-monospace,monospace">Latency HUD</text>
+  <text x="40" y="398" fill="#00E5FF" font-size="13" font-weight="700" font-family="Inter,sans-serif">18ms - budget 33ms</text>
+  <rect x="472" y="52" width="232" height="100" rx="12" fill="#101820" stroke="#00E5FF"/>
+  <text x="488" y="84" fill="#8BA0AE" font-size="10" font-family="ui-monospace,monospace">ACTIVE GESTURE</text>
+  <text x="488" y="114" fill="#00E5FF" font-size="22" font-weight="800" font-family="Inter,sans-serif">Pinch</text>
+  <rect x="472" y="168" width="232" height="254" rx="12" fill="#101820" stroke="#243040"/>
+  <text x="488" y="196" fill="#E8F6FA" font-size="13" font-weight="700" font-family="Inter,sans-serif">Bindings board</text>
+  <rect x="488" y="214" width="200" height="40" rx="8" fill="#162028" stroke="#243040"/>
+  <text x="500" y="238" fill="#8BA0AE" font-size="11" font-family="Inter,sans-serif">Pinch to key Space</text>
+  <rect x="488" y="264" width="200" height="40" rx="8" fill="#162028" stroke="#00E5FF"/>
+  <text x="500" y="288" fill="#00E5FF" font-size="11" font-family="Inter,sans-serif">Point to OSC /pose</text>
+  <rect x="488" y="314" width="200" height="40" rx="8" fill="#162028" stroke="#243040"/>
+  <text x="500" y="338" fill="#8BA0AE" font-size="11" font-family="Inter,sans-serif">Grab to dry-run</text>
+  <text x="488" y="390" fill="#4A5E6A" font-size="10" font-family="ui-monospace,monospace">Drop honesty > fake smooth</text>
+</svg>

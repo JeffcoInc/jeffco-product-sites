@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-label="BoatDockCam coming preview">
+  <defs>
+<radialGradient id="glow" cx="50%" cy="35%" r="55%"><stop offset="0%" stop-color="#14B8A6" stop-opacity="0.22"/><stop offset="100%" stop-opacity="0"/></radialGradient>
+  </defs>
+<rect width="720" height="440" rx="16" fill="#060E10"/>
+<rect width="720" height="440" rx="16" fill="url(#glow)"/>
+<rect x="24" y="24" width="672" height="392" rx="14" fill="none" stroke="#14B8A6" stroke-opacity="0.35" stroke-dasharray="6 4"/>
+<circle cx="360" cy="120" r="40" fill="none" stroke="#14B8A6" stroke-width="2"/>
+<circle cx="360" cy="120" r="14" fill="#14B8A6"/>
+<text x="360" y="185" text-anchor="middle" fill="#14B8A6" font-size="11" font-weight="800" letter-spacing="3" font-family="Inter,sans-serif">COMING</text>
+<text x="360" y="230" text-anchor="middle" fill="#E8F8F6" font-size="28" font-weight="800" font-family="Fraunces,Georgia,serif">BoatDockCam</text>
+<text x="360" y="270" text-anchor="middle" fill="#8AB0A8" font-size="13" font-family="Inter,sans-serif">Slips - Boats - Bump notify</text>
+<text x="360" y="294" text-anchor="middle" fill="#8AB0A8" font-size="13" font-family="Inter,sans-serif">Bilge = hint - != DockCam freight</text>
+<text x="360" y="400" text-anchor="middle" fill="#4A7068" font-size="11" font-family="ui-monospace,monospace">Screenshots TBD · Design mocks elevate</text>
+</svg>

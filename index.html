@@ -3,32 +3,59 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>JeffCo Product Sites — Crown Trinity</title>
+  <title>JeffCo Product Sites</title>
   <style>
-    :root { --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --grow:#166534; --repair:#9a3412; --brain:#1e3a8a; }
+    :root { --ink:#0f172a; --muted:#475569; --line:#e2e8f0; --bg:#f8fafc; }
     * { box-sizing: border-box; }
-    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--ink); background:#f8fafc; }
-    header { padding:48px 24px 24px; max-width:960px; margin:0 auto; }
+    body { margin:0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; color:var(--ink); background:var(--bg); }
+    header { padding:48px 24px 16px; max-width:1100px; margin:0 auto; }
     h1 { font-size:2rem; margin:0 0 8px; }
-    p { color:var(--muted); line-height:1.5; }
-    .grid { display:grid; gap:16px; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); max-width:960px; margin:0 auto; padding:0 24px 64px; }
-    a.card { display:block; text-decoration:none; color:inherit; background:#fff; border:1px solid var(--line); border-radius:16px; padding:20px; transition:transform .15s ease, box-shadow .15s ease; }
+    .lede { color:var(--muted); line-height:1.5; max-width:62ch; }
+    h2 { max-width:1100px; margin:32px auto 12px; padding:0 24px; font-size:0.85rem; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); }
+    .grid { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); max-width:1100px; margin:0 auto; padding:0 24px 24px; }
+    a.card { display:block; text-decoration:none; color:inherit; background:#fff; border:1px solid var(--line); border-radius:14px; padding:16px 18px; transition:transform .15s ease, box-shadow .15s ease; }
     a.card:hover { transform:translateY(-2px); box-shadow:0 12px 30px rgba(15,23,42,.08); }
-    .tag { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:4px 8px; border-radius:999px; color:#fff; margin-bottom:12px; }
-    .grow { background:var(--grow); } .repair { background:var(--repair); } .brain { background:var(--brain); }
-    footer { max-width:960px; margin:0 auto; padding:0 24px 48px; color:var(--muted); font-size:14px; }
+    .tag { display:inline-block; font-size:11px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; padding:3px 8px; border-radius:999px; color:#fff; margin-bottom:10px; }
+    .crown { background:#0f766e; } .full { background:#1d4ed8; } .stub { background:#64748b; }
+    a.card h3 { margin:0 0 6px; font-size:1.05rem; }
+    a.card p { margin:0; color:var(--muted); font-size:0.92rem; line-height:1.4; }
+    footer { max-width:1100px; margin:0 auto; padding:8px 24px 48px; color:var(--muted); font-size:14px; }
   </style>
 </head>
 <body>
   <header>
-    <h1>JeffCo crown product sites</h1>
-    <p>Design-shipped Pages for GrowCam, RepairCam, and Brain. Module repos stay private; this public mirror hosts GitHub Pages on Free.</p>
+    <h1>JeffCo product sites</h1>
+    <p class="lede">Public GitHub Pages mirror for JeffCo modules. Crown + wave shipped from Design packs. Soft/JOI omitted. Private module repos stay private on GitHub Free.</p>
   </header>
+
+  <h2>Crown</h2>
   <div class="grid">
-    <a class="card" href="./growcam/"><span class="tag grow">GrowCam</span><h2>Greenhouse specialist</h2><p>Propose ≠ water. SensorConfirm honesty. Classical ExG production lock.</p></a>
-    <a class="card" href="./repaircam/"><span class="tag repair">RepairCam</span><h2>Guided tear-down / build-up</h2><p>Detect ≠ claim. Invent placement = 0 under occlusion. Origin pose 2D honesty.</p></a>
-    <a class="card" href="./brain/"><span class="tag brain">Brain</span><h2>Ops metacognition</h2><p>No silent heal. Real LangGraph. SessionExplain completeness floor.</p></a>
+    <a class="card" href="./growcam/"><span class="tag crown">Crown</span><h3>GrowCam</h3><p>Propose ≠ water. SensorConfirm honesty.</p></a>
+    <a class="card" href="./repaircam/"><span class="tag crown">Crown</span><h3>RepairCam</h3><p>Detect ≠ claim. Invent placement = 0.</p></a>
+    <a class="card" href="./brain/"><span class="tag crown">Crown</span><h3>Brain</h3><p>No silent heal. Real LangGraph.</p></a>
   </div>
-  <footer>Soft/JOI omitted. JeffcoInc · Design crown packs · Builder deploy</footer>
+
+  <h2>Full wave</h2>
+  <div class="grid">
+    <a class="card" href="./lpr/"><span class="tag full">Full</span><h3>LPR</h3><p>Plate sighting + dry-run gate — never invent plates.</p></a>
+    <a class="card" href="./lotcam/"><span class="tag full">Full</span><h3>LotCam</h3><p>Stall map free/busy — never driver identity.</p></a>
+    <a class="card" href="./facecam/"><span class="tag full">Full</span><h3>FaceCam</h3><p>Anonymous mesh — Identity BLOCK.</p></a>
+    <a class="card" href="./handcam/"><span class="tag full">Full</span><h3>HandCam</h3><p>Gesture lab + bindings — never medical theater.</p></a>
+  </div>
+
+  <h2>Coming soon (honest stubs)</h2>
+  <div class="grid">
+    <a class="card" href="./bodycam/"><span class="tag stub">Stub</span><h3>BodyCam</h3><p>Anonymous P-IDs — face link BLOCK.</p></a>
+    <a class="card" href="./farmcam/"><span class="tag stub">Stub</span><h3>FarmCam</h3><p>Herd board — escape notify-first.</p></a>
+    <a class="card" href="./poolcam/"><span class="tag stub">Stub</span><h3>PoolCam</h3><p>Safety console — never cute in-water.</p></a>
+    <a class="card" href="./sitecam/"><span class="tag stub">Stub</span><h3>SiteCam</h3><p>PPE chips — near-miss notify-first.</p></a>
+    <a class="card" href="./yardcam/"><span class="tag stub">Stub</span><h3>YardCam</h3><p>Pile cards — movement ≠ custody.</p></a>
+    <a class="card" href="./dockcam/"><span class="tag stub">Stub</span><h3>DockCam</h3><p>Freight bay board — ≠ marina.</p></a>
+    <a class="card" href="./boatdockcam/"><span class="tag stub">Stub</span><h3>BoatDockCam</h3><p>Harbor slip chart — ≠ freight DockCam.</p></a>
+    <a class="card" href="./hivecam/"><span class="tag stub">Stub</span><h3>HiveCam</h3><p>Apiary book — swarm hints with cooldowns.</p></a>
+    <a class="card" href="./queuecam/"><span class="tag stub">Stub</span><h3>QueueCam</h3><p>Queue depth — Faces BLOCK stamp.</p></a>
+  </div>
+
+  <footer>JeffcoInc · Design GH Pages wave · Soft/JOI omitted</footer>
 </body>
 </html>
