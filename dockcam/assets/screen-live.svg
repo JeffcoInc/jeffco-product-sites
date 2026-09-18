@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142030"/><stop offset="100%" stop-color="#0A0C10"/></linearGradient></defs>
+  <rect width="720" height="440" rx="16" fill="url(#bg)"/>
+  <rect x="0" y="0" width="720" height="40" fill="#0C1520"/>
+  <circle cx="22" cy="20" r="7" fill="#94A3B8"/>
+  <text x="36" y="24" fill="#EAF4FC" font-family="Inter,sans-serif" font-size="12" font-weight="700">JeffCo DockCam</text>
+<text x="170" y="24" fill="#94A3B8" font-family="Inter,sans-serif" font-size="11" font-weight="600">Live</text>
+<text x="242" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Bays</text>
+<text x="314" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Moves</text>
+<text x="389" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Automations</text>
+  <rect x="16" y="52" width="500" height="36" rx="8" fill="rgba(148,163,184,0.12)" stroke="#94A3B8"/>
+  <text x="28" y="74" fill="#EAF4FC" font-size="13" font-weight="700" font-family="Inter,sans-serif">Truck at Bay 3 — door OPEN · dwell 00:14 · ABC-1234 (LPR)</text>
+  <rect x="16" y="110" width="220" height="140" rx="12" fill="#142030" stroke="#34D399"/>
+  <text x="32" y="142" fill="#34D399" font-size="14" font-weight="700" font-family="Inter,sans-serif">Bay 3</text>
+  <text x="32" y="166" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">DOOR OPEN · truck · 00:14</text>
+  <rect x="252" y="110" width="220" height="140" rx="12" fill="#142030" stroke="#F87171"/>
+  <text x="268" y="142" fill="#F87171" font-size="14" font-weight="700" font-family="Inter,sans-serif">Bay 2</text>
+  <text x="268" y="166" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">DOOR OPEN · no truck</text>
+  <rect x="488" y="110" width="216" height="140" rx="12" fill="#142030" stroke="#2A3E52"/>
+  <text x="504" y="142" fill="#8BA3B8" font-size="14" font-weight="700" font-family="Inter,sans-serif">Bay 1</text>
+  <text x="504" y="166" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">CLOSED · last 11:40</text>
+  <rect x="16" y="270" width="688" height="140" rx="12" fill="#0C1520" stroke="#2A3E52"/>
+  <text x="32" y="310" fill="#EAF4FC" font-size="13" font-weight="700" font-family="Inter,sans-serif">Moves</text>
+  <text x="32" y="340" fill="#94A3B8" font-size="12" font-family="Inter,sans-serif">Pallet activity Bay 3 · logged</text>
+  <text x="32" y="368" fill="#F87171" font-size="12" font-family="Inter,sans-serif">Door open Bay 2 · no truck — critical · ≠ marina</text>
+</svg>

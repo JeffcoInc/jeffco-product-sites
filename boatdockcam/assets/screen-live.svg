@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142030"/><stop offset="100%" stop-color="#060E10"/></linearGradient></defs>
+  <rect width="720" height="440" rx="16" fill="url(#bg)"/>
+  <rect x="0" y="0" width="720" height="40" fill="#0C1520"/>
+  <circle cx="22" cy="20" r="7" fill="#14B8A6"/>
+  <text x="36" y="24" fill="#EAF4FC" font-family="Inter,sans-serif" font-size="12" font-weight="700">JeffCo BoatDockCam</text>
+<text x="170" y="24" fill="#14B8A6" font-family="Inter,sans-serif" font-size="11" font-weight="600">Live</text>
+<text x="242" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Slips</text>
+<text x="317" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Boats</text>
+<text x="392" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Automations</text>
+  <rect x="16" y="52" width="150" height="32" rx="16" fill="rgba(20,184,166,0.12)" stroke="#14B8A6"/>
+  <text x="32" y="72" fill="#14B8A6" font-size="13" font-weight="700" font-family="Inter,sans-serif">8 / 12 slips open</text>
+  <text x="180" y="72" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">Bilge = hint · bump notify · ≠ freight</text>
+  <rect x="16" y="100" width="440" height="320" rx="12" fill="#0C1520" stroke="#2A3E52"/>
+  <text x="28" y="124" fill="#8BA3B8" font-size="11" font-family="Inter,sans-serif">Harborboard · Finger A–B</text>
+  <rect x="40" y="150" width="90" height="70" rx="12" fill="#142030" stroke="#F87171"/>
+  <text x="56" y="182" fill="#F87171" font-size="14" font-weight="700" font-family="Inter,sans-serif">A12 occ</text>
+  <text x="56" y="206" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">water hint</text>
+  <rect x="145" y="150" width="90" height="70" rx="12" fill="#142030" stroke="#34D399"/>
+  <text x="161" y="182" fill="#34D399" font-size="14" font-weight="700" font-family="Inter,sans-serif">A14 free</text>
+  <text x="161" y="206" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">ready</text>
+  <rect x="250" y="150" width="90" height="70" rx="12" fill="#142030" stroke="#F87171"/>
+  <text x="266" y="182" fill="#F87171" font-size="14" font-weight="700" font-family="Inter,sans-serif">B04 bump</text>
+  <text x="266" y="206" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">notify</text>
+  <rect x="355" y="150" width="80" height="70" rx="12" fill="#142030" stroke="#34D399"/>
+  <text x="371" y="182" fill="#34D399" font-size="14" font-weight="700" font-family="Inter,sans-serif">B06 free</text>
+  <text x="371" y="206" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">—</text>
+  <rect x="472" y="100" width="232" height="320" rx="12" fill="#142030" stroke="#2A3E52"/>
+  <text x="488" y="128" fill="#EAF4FC" font-size="13" font-weight="700" font-family="Inter,sans-serif">Activity</text>
+  <text x="488" y="168" fill="#F87171" font-size="12" font-family="Inter,sans-serif">Bump · Slip B04</text>
+  <text x="488" y="200" fill="#14B8A6" font-size="12" font-family="Inter,sans-serif">HINT · A12 water</text>
+  <text x="488" y="220" fill="#8BA3B8" font-size="10" font-family="Inter,sans-serif">Not a flood diagnosis</text>
+  <text x="488" y="360" fill="#4A6074" font-size="10" font-family="ui-monospace,monospace">No owner face ID</text>
+</svg>

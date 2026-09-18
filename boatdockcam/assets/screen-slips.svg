@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#142030"/><stop offset="100%" stop-color="#060E10"/></linearGradient></defs>
+  <rect width="720" height="440" rx="16" fill="url(#bg)"/>
+  <rect x="0" y="0" width="720" height="40" fill="#0C1520"/>
+  <circle cx="22" cy="20" r="7" fill="#14B8A6"/>
+  <text x="36" y="24" fill="#EAF4FC" font-family="Inter,sans-serif" font-size="12" font-weight="700">JeffCo BoatDockCam</text>
+<text x="170" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Live</text>
+<text x="242" y="24" fill="#14B8A6" font-family="Inter,sans-serif" font-size="11" font-weight="600">Slips</text>
+<text x="317" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Boats</text>
+<text x="392" y="24" fill="#4A6074" font-family="Inter,sans-serif" font-size="11" font-weight="400">Automations</text>
+  <text x="28" y="72" fill="#EAF4FC" font-size="16" font-weight="700" font-family="Inter,sans-serif">Slips — occupancy board</text>
+  <rect x="24" y="110" width="210" height="110" rx="12" fill="#142030" stroke="#14B8A6"/>
+  <text x="40" y="142" fill="#14B8A6" font-size="14" font-weight="700" font-family="Inter,sans-serif">A12 · Occupied</text>
+  <text x="40" y="166" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">Sea Breeze · claimed</text>
+  <rect x="250" y="110" width="210" height="110" rx="12" fill="#142030" stroke="#34D399"/>
+  <text x="266" y="142" fill="#34D399" font-size="14" font-weight="700" font-family="Inter,sans-serif">A14 · Vacant</text>
+  <text x="266" y="166" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">Ready</text>
+  <rect x="476" y="110" width="220" height="110" rx="12" fill="#142030" stroke="#F87171"/>
+  <text x="492" y="142" fill="#F87171" font-size="14" font-weight="700" font-family="Inter,sans-serif">B04 · Bump</text>
+  <text x="492" y="166" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">Notify + clip</text>
+  <rect x="24" y="250" width="672" height="70" rx="12" fill="rgba(20,184,166,0.08)" stroke="#14B8A6"/>
+  <text x="40" y="280" fill="#14B8A6" font-size="13" font-weight="700" font-family="Inter,sans-serif">Bilge / waterline = HINT only — never sinking diagnosed</text>
+  <text x="40" y="302" fill="#8BA3B8" font-size="12" font-family="Inter,sans-serif">Occupancy ≠ vessel identity until claimed</text>
+</svg>

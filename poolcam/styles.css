@@ -220,23 +220,6 @@ section.alt { background: var(--bg2); }
 .cta-band h2 { font-family: var(--font-display); font-size: clamp(1.6rem, 3vw, 2.2rem); margin-bottom: 10px; }
 .cta-band p { color: var(--muted); margin-bottom: 22px; }
 
-.coming-banner {
-  display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between;
-  padding: 18px 20px; border-radius: var(--r);
-  background: linear-gradient(135deg, rgba(var(--accent-rgb),.1), rgba(251,191,36,.06));
-  border: 1px solid rgba(var(--accent-rgb),.3);
-  margin: 20px auto 0; max-width: var(--max);
-}
-.coming-banner strong { color: var(--amber); font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; }
-.coming-banner p { color: var(--muted); font-size: 0.92rem; max-width: 52ch; }
-
-.tbd-frame {
-  padding: 28px; color: var(--muted); font-family: var(--font-mono); font-size: 13px;
-  line-height: 1.65; min-height: 200px;
-  background: color-mix(in srgb, var(--bg) 90%, #000);
-  display: flex; flex-direction: column; justify-content: center; gap: 8px;
-}
-.tbd-frame .accent-line { color: var(--accent); margin-bottom: 4px; }
 
 footer {
   padding: 28px 24px 40px; border-top: 1px solid var(--line);
